@@ -1,0 +1,25 @@
+pipenv install django
+model = table
+python manage.py migrate
+extantion - sqlite
+ ready to data in sql =  python manage.py makemigrations
+
+
+
+ *****Model***** 
+
+ - make a class
+ - python manage.py makemigrations
+ - python manage.py migrate
+
+
+ ****Add admin****
+
+ from .models import Post
+admin.site.register(Post)
+
+*****css****
+To link css -
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<img src="{% static 'abc.jpg' %}" alt="">
