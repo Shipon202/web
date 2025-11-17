@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boostlanders</title>
+    <link href="Boostlanders_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Boostlanders_files/style.css">
+    <link rel="icon" href="http://127.0.0.1:5500/python/ostad/exam/assets/img/favicon.png">
+  </head>
+  <body>
+    <div class=" header-con container-fluid ">
+        <nav class="navbar  style=" background-color:="" #e3f2fd;"="">
+            <div class="container-fluid d-flex justify-content-between">
+              <a class="navbar-brand text-white ">Boostlanders</a>
+              <form class="d-flex fw-bold text-white">
+                <nav class="nav ">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-white" href="#">About</a>
+                    <a class="nav-link text-white" href="#">Features</a>
+                    <a class="nav-link text-white" href="#">Gallery</a>
+                    <a class="nav-link text-white" href="#">Team</a>
+                    <a class="nav-link text-white" href="#">pricing</a>
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown button
+                        </button>
+                        <ul class="dropdown-menu  text-white">
+                          <li><a class="dropdown-item active" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                      </div>
+                      <a class="nav-link text-white" href="#">Contact</a>
+                    
+                </nav>
+              </form>
+            </div>
+          </nav>
+    <div class="heder2 container-fluid row mt-3">
+        <div class="row justify-content-evenly">
+            <div class="col-4 pt-5 ">
+              <h1>Build Your Landing Page With Bootslander</h1>
+              <p>we are team of talented designers making website with Boostrap</p>
+             <div class="watch-video d-flex justify-content-evenly">
+                <div class="get-btn  rounded-pill ">
+                    <button type="button" class="btn ">Get Start</button>
+
+                </div>
+                <div class="img-2 d-flex justify-content-between ">
+                  <div class="img">
+                    <img src="Boostlanders_files/play-button.png" alt="">
+                  </div>
+                  <div class="img-p">
+                    <p>Watch video</p>
+                  </div>
+
+                </div>
+
+             </div>
+            </div>
+            <div class=" hero-img col-4">
+              
+             <img src="Boostlanders_files/hero-img.png" alt=""> 
+            </div>
+           
+          </div>
+        
+    </div>
+    
+</div>
+    <script src="Boostlanders_files/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

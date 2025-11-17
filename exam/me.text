@@ -1,0 +1,32 @@
+<div class="container text-center  ">
+        <div class="row  row-cols-lg-4 g-2 g-lg-3">
+          
+            <div class="col grid column-gap-0">
+              <div class="p-3"><img src="assets/img/gallery/gallery-1.jpg" alt=""></div>
+            </div>
+          
+          <div class="col">
+            <div class="p-3"><img src="assets/img/gallery/gallery-2.jpg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="assets/img/gallery/gallery-3.jpg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="assets/img/gallery/gallery-4.jpg" alt=""></div>
+          </div>
+          
+          <div class="col">
+            <div class="p-3"><img src="assets/img/gallery/gallery-5.jpg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="assets/img/gallery/gallery-6.jpg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="assets/img/gallery/gallery-7.jpg" alt=""></div>
+          </div>
+          <div class="col">
+            <div class="p-3"><img src="assets/img/gallery/gallery-8.jpg" alt=""></div>
+          </div>
+          
+        </div>
+      </div>

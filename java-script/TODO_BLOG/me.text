@@ -1,0 +1,4 @@
+username : shipon
+password : rsshipon97
+ python manage.py runserver
+ 
